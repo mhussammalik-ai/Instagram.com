@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
+    border-right: 1px solid #dbdbdb;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    margin-bottom: 4px;
+    font-size: 50px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+ li .icon {
+    size: 89px; 
+    padding: 99px 0;
+    cursor: pointer;
+    border-bottom: 0px solid #dbdbdb;
+    font-size: 100px; 
+}
+
+
+
+
+.sidebar ul li {
+    padding: 20px 0;
+    cursor: pointer;
+    border-bottom:0px solid #dbdbdb;
+}
+
+
+
+.main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+
+.stories {
+    display: flex;
+    gap: 15px;
+    background: #faf9f9;
+    padding: 15px;
+  
+  
+}
+p { 
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    word-spacing: 20px;   
+}
+
+
+
+.story {
+    text-align: center;
+    font-size: 12px;
+}
+
+.story img {
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;     
+    object-fit: cover;    
+    border: 10px solid #ffffff; 
+
+
+}
+
+
+.post {
+    background: #fff;
+    border: 0px solid #dbdbdb;
+    width: auto;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-header img {
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.post-image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+
+}
+
+.post-actions {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.caption {
+     margin: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    word-spacing: 4px;   
+    
+}
+
+
+
