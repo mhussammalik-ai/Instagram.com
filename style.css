@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fafafa;
 }
-
 .sidebar {
     width: 220px;
     height: 100vh;
@@ -12,15 +11,28 @@ body {
     border-right: 1px solid #dbdbdb;
 }
 
-.logo {
-    font-family: 'Brush Script MT', cursive;
-    margin-bottom: 4px;
-    font-size: 50px;
+.sidebar img {        
+    margin: null auto;      
+    display: block;            
+     border-radius: 1000px;     
+     border: 5px solid #efe9e9;
+     box-shadow: 0 4px 6px rgba(179, 28, 28, 0.2);
 }
+
+h2{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+}
+
+
+
 
 .sidebar ul {
     list-style: none;
-    padding: 0;
+    padding:    9px;
 }
 
  li .icon {
@@ -76,10 +88,10 @@ p {
     height: 100px;
     border-radius: 50%;     
     object-fit: cover;    
-    border: 10px solid #ffffff; 
-
-
+    border: 10px solid #000000; 
+    box-shadow: 0 0 0 3px #ff0000;
 }
+
 
 
 .post {
